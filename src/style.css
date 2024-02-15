@@ -1,0 +1,79 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	background-color: rgb(249, 250, 252);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 600;
+}
+
+.dark-grey {
+	color: rgb(108, 115, 127);
+}
+
+#wrapper {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.offer-sec .card {
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 5px 22px,
+	rgba(0, 0, 0, 0.03) 0px 0px 0px 0.5px;
+	transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.offer-sec .card .img-holder {
+	max-width: 110px;
+	margin:0 auto;
+}
+
+.offer-sec .card .title {
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-weight: 600;
+	margin: 0 0 10px;
+}
+
+.offer-sec .card ul li {
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgb(255, 214, 0);
+  border-radius: 16px;
+	font-size: 12px;
+	padding: 4px 10px;
+	margin: 0 10px 10px 0;
+}
+
+.offer-sec .card ul.green li {
+	background-color: rgb(0, 156, 120);
+	color: #fff;
+}
+
+.offer-sec .card ul.orange li {
+	background-color: rgb(247, 144, 9);
+	color: #fff;
+}
+
+.offer-sec .card .link {
+	position: absolute;
+	bottom: 12px;
+	left: 12px;
+	right: 12px;
+}
+
+.offer-sec .card .link a {
+	color: rgb(0, 156, 120);
+	padding: 9px 16px;
+	border-radius: 12px;
+} 
+
+.offer-sec .card .link a:hover {
+	background-color: rgba(0, 156, 120, 0.04);
+}
